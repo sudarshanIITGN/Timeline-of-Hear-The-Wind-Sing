@@ -1,0 +1,159 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    /*background: #20212b; /*#20212b*/
+    /*background-image: linear-gradient(#20212b, #3f4155, #555873);*/
+    background-image: url("download (19)(1).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(100%);
+}
+.container_for_heading{
+    padding: 10px 10px;
+    position: relative;
+    top: 30px;
+    width: 95%;
+}
+.container_for_legend1{
+    padding: 5px 5px;
+    position: relative;
+    width: 19%;
+    height: 500px;
+    /*background-color: #fff;*/
+}
+.text-box_for_legend1{
+    /*background: #fff;*/
+    height: auto;
+    /*background: rgba(255, 255, 255, 0.15); /* Translucent white background */
+    /*color: #83529e51;
+    /*backdrop-filter: blur(15px); /* Apply blur effect */
+    /*box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    position: absolute;
+    font-size: 15px;
+    border-radius: 7px;
+    /*background-color: #83529e51; /* Color tint for stained glass effect */
+    /*border: 2px solid rgba(255, 255, 255, 0.5); /* White border with transparency */
+}
+.text-box_for_heading{
+    padding: 4px 4px;
+    /*background: #fff;*/
+    /*background: rgba(255, 255, 255, 0.15); /* Translucent white background */
+    /*background: #dbdad5;
+    backdrop-filter: blur(50px); /* Apply blur effect */
+    /*box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    position: relative;
+    font-size: 15px;
+    border-radius: 7px;
+    /*background-color: rgba(88, 88, 60, 0.064); /* Color tint for stained glass effect */
+    /*border: 2px solid rgba(255, 255, 255, 0.5); /* White border with transparency */
+}
+.container_for_legend1, .container_for_legend2, .container_for_legend3 {
+    display: inline-block;
+    vertical-align: top; /* Align them to the top of the line */
+}
+
+.heading{
+    color: #11120ea5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading h1{
+    font-size: 42.5px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.heading h2{
+    font-size: 50px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading h3{
+    color: #11120ea5;
+    font-family: garamond, serif;
+    text-align: justify;
+    font-size: 18px;
+}
+.heading h1,
+.heading h2 {
+    margin: -10px 0; /* Adjust the top and bottom margin as needed */
+}
+
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container{
+    padding: 10px 10px;
+    position: relative;
+    width: 50%;
+}
+.text-box{
+    padding: 4px 4px;
+    /*background: #fff;*/
+    background: rgba(255, 255, 255, 0.15); /* Translucent white background */
+    backdrop-filter: blur(15px); /* Apply blur effect */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    position: relative;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 0, 0.064); /* Color tint for stained glass effect */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* White border with transparency */
+}
+.left-container{
+    left: 0;
+}
+.right-container{
+    left: 51.3%;
+}
+.timeline .container .text-box h2{ 
+    color: #3e3f3a;
+}
+.text-box h2,
+.text-box h4 {
+    margin: 2px 0; /* Adjust the top and bottom margin as needed */
+}
+.text-box h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.book-author .text-box{
+    /*background: #9e685251;*/
+    background-color: #9e685251;
+}
+.music-song .text-box{
+    background-color: #52949e51;
+}
+.movie-tv .text-box{
+    background-color: #83529e51;
+}
+.circle {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 50px;
+    right: -15px;
+    background-color: #fff;
+    backdrop-filter: blur(100px);
+    border-radius: 50%;
+}
+.right-container .circle{
+    left: -16px;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    backdrop-filter: blur(100px);
+    border-radius: 7px;
+    top: 0;
+    left: 50%;
+    margin-left: 14px;
+    z-index: -1;
+}
